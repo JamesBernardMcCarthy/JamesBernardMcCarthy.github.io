@@ -1,0 +1,82 @@
+.App {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+}
+  /* background: linear-gradient(300deg,#d5212a,#d5212a,#e5a7a9);
+  background-size: 180% 180%;
+  animation: gradient-animation 3s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
+
+.Header {
+  flex: 1;
+  background-color: #181818
+}
+
+.Front {
+  flex: 10;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* .FrontImage {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex: 1;
+  border: 3px solid #3d3d3d;
+  border-radius: 5px;
+} */
+
+/* .ImageContainer {
+  background: linear-gradient(0deg, #00000088 40%, #ffffff44 100%);
+}
+
+.FrontImage {
+  opacity: 0.5;
+  -webkit-filter: contrast(90%);
+  -moz-filter: contrast(90%);
+    -o-filter: contrast(90%);
+   -ms-filter: contrast(90%);
+       filter: contrast(90%);
+} */
+
+.Footer {
+  flex: 1;
+  background-color: #181818
+}
+
+.Body {
+  display: flex;
+  flex-flow: column;
+  flex: 12;
+  /* background-color: #212121; */
+  background-color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+}
+
+.Description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex: 1;
+}
+
+.Margin {
+  flex: 1;
+  background-color: #3d3d3d
+}
